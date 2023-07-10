@@ -9,6 +9,6 @@ namespace OdataData.Model
         public string MemberPassword { get; set; } = null!;
         public string FullName { get; set; } = null!;
         public string? EmailAddress { get; set; }
-        public int? MemberRole { get; set; }
+        public int MemberRole { get; set; }
     }
 }

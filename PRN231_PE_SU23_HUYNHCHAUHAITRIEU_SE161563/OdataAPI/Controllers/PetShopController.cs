@@ -21,7 +21,7 @@ namespace OdataAPI.Controllers
         /// Login
         /// </summary>
         /// 
-        [HttpPost("Login")]
+        [HttpGet("Login")]
         public IActionResult Login([FromQuery] string email, [FromQuery] string password)
         {
             try

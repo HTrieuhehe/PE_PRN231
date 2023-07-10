@@ -14,6 +14,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.OData;
 using System.Diagnostics;
 using OdataAPI.Helpers;
+using OdataService.Service;
+using Autofac;
 
 namespace OdataAPI
 {
@@ -106,7 +108,15 @@ namespace OdataAPI
                 });
             });
             services.ConfigureAuthServices(Configuration);
-            services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+        }
+
+        public void ConfigureContainer(ContainerBuilder builder)
+        {
+            builder.RegisterType<PetManagerService>().As<IPetManagerService>();
+
+            builder.RegisterGeneric(typeof(Repository<>))
+            .As(typeof(IRepository<>))
+            .InstancePerLifetimeScope();
         }
 
         public void Configure(IApplicationBuilder app)

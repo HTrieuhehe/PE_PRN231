@@ -1,3 +1,4 @@
+using Autofac.Extensions.DependencyInjection;
 using OdataAPI;
 
 public static class Program
@@ -8,11 +9,11 @@ public static class Program
     }
 
     public static IHostBuilder CreateHostBuilder(string[] args) =>
-        Host.CreateDefaultBuilder(args)
-            .ConfigureWebHostDefaults(webBuilder =>
-            {
-                webBuilder.UseContentRoot(Directory.GetCurrentDirectory());
-                webBuilder.UseIISIntegration();
-                webBuilder.UseStartup<Startup>();
-            });
+             Host.CreateDefaultBuilder(args).UseServiceProviderFactory(new AutofacServiceProviderFactory())
+                 .ConfigureWebHostDefaults(webBuilder =>
+                 {
+                     webBuilder.UseContentRoot(Directory.GetCurrentDirectory());
+                     webBuilder.UseIISIntegration();
+                     webBuilder.UseStartup<Startup>();
+                 });
 }

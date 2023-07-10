@@ -16,15 +16,19 @@ namespace OdataAPI.Controllers
             _repository = repository;
         }
 
-        [HttpGet]
-        [EnableQuery]
+        ///<summary>
+        /// API: https://localhost:44300/api/pet/GetAll
+        /// </summary>
+        [HttpGet("GetAll")]
+        [EnableQuery(PageSize = 4)]
         public IActionResult Get()
         {
             var entities = _repository.GetAll();
             return Ok(entities);
         }
 
-        [HttpGet("{id}")]
+        
+        [HttpGet("GetById")]
         [EnableQuery]
         public IActionResult Get(int id)
         {
@@ -36,14 +40,14 @@ namespace OdataAPI.Controllers
             return Ok(entity);
         }
 
-        [HttpPost]
+        [HttpPost("Create")]
         public IActionResult Post([FromBody] Pet entity)
         {
             _repository.Add(entity);
             return CreatedAtAction(nameof(Get), new { id = entity.PetId }, entity);
         }
 
-        [HttpPut("{id}")]
+        [HttpPut("Update")]
         public IActionResult Put(int id, [FromBody] Pet entity)
         {
             var existingEntity = _repository.GetById(id);
@@ -58,7 +62,7 @@ namespace OdataAPI.Controllers
             return NoContent();
         }
 
-        [HttpDelete("{id}")]
+        [HttpDelete("Delete")]
         public IActionResult Delete(int id)
         {
             var entity = _repository.GetById(id);

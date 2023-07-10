@@ -1,0 +1,40 @@
+﻿@page
+@model OdataWebClient.Pages.HomeModel
+@{
+
+}
+
+<h2>Home Page</h2>
+
+@if (Model.Pets != null && Model.Pets.Count > 0)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Pet ID</th>
+                <th>Pet Name</th>
+                <th>Import Date</th>
+                <th>Description</th>
+                <th>Quantity</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var pet in Model.Pets)
+            {
+                <tr>
+                    <td>@pet.PetId</td>
+                    <td>@pet.PetName</td>
+                    <td>@pet.ImportDate</td>
+                    <td>@pet.PetDescription</td>
+                    <td>@pet.Quantity</td>
+                    <td>@pet.PetPrice</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No pets available.</p>
+}

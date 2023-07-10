@@ -1,0 +1,15 @@
+F:\ProjectStudy\PRN_231\PRN231_PE_SU23_HUYNHCHAUHAITRIEU_SE161563\OdataData\bin\Debug\net6.0\OdataData.deps.json
+F:\ProjectStudy\PRN_231\PRN231_PE_SU23_HUYNHCHAUHAITRIEU_SE161563\OdataData\bin\Debug\net6.0\OdataData.runtimeconfig.json
+F:\ProjectStudy\PRN_231\PRN231_PE_SU23_HUYNHCHAUHAITRIEU_SE161563\OdataData\bin\Debug\net6.0\OdataData.dll
+F:\ProjectStudy\PRN_231\PRN231_PE_SU23_HUYNHCHAUHAITRIEU_SE161563\OdataData\bin\Debug\net6.0\OdataData.pdb
+F:\ProjectStudy\PRN_231\PRN231_PE_SU23_HUYNHCHAUHAITRIEU_SE161563\OdataData\obj\Debug\net6.0\OdataData.csproj.AssemblyReference.cache
+F:\ProjectStudy\PRN_231\PRN231_PE_SU23_HUYNHCHAUHAITRIEU_SE161563\OdataData\obj\Debug\net6.0\OdataData.GeneratedMSBuildEditorConfig.editorconfig
+F:\ProjectStudy\PRN_231\PRN231_PE_SU23_HUYNHCHAUHAITRIEU_SE161563\OdataData\obj\Debug\net6.0\OdataData.AssemblyInfoInputs.cache
+F:\ProjectStudy\PRN_231\PRN231_PE_SU23_HUYNHCHAUHAITRIEU_SE161563\OdataData\obj\Debug\net6.0\OdataData.AssemblyInfo.cs
+F:\ProjectStudy\PRN_231\PRN231_PE_SU23_HUYNHCHAUHAITRIEU_SE161563\OdataData\obj\Debug\net6.0\OdataData.csproj.CoreCompileInputs.cache
+F:\ProjectStudy\PRN_231\PRN231_PE_SU23_HUYNHCHAUHAITRIEU_SE161563\OdataData\obj\Debug\net6.0\EFCoreSqlServerNetTopologySuite.cs
+F:\ProjectStudy\PRN_231\PRN231_PE_SU23_HUYNHCHAUHAITRIEU_SE161563\OdataData\obj\Debug\net6.0\OdataData.dll
+F:\ProjectStudy\PRN_231\PRN231_PE_SU23_HUYNHCHAUHAITRIEU_SE161563\OdataData\obj\Debug\net6.0\refint\OdataData.dll
+F:\ProjectStudy\PRN_231\PRN231_PE_SU23_HUYNHCHAUHAITRIEU_SE161563\OdataData\obj\Debug\net6.0\OdataData.pdb
+F:\ProjectStudy\PRN_231\PRN231_PE_SU23_HUYNHCHAUHAITRIEU_SE161563\OdataData\obj\Debug\net6.0\OdataData.genruntimeconfig.cache
+F:\ProjectStudy\PRN_231\PRN231_PE_SU23_HUYNHCHAUHAITRIEU_SE161563\OdataData\obj\Debug\net6.0\ref\OdataData.dll

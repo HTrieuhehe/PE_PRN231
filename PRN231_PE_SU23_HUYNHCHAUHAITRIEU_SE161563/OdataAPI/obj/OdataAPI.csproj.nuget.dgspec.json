@@ -1,0 +1,357 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\ProjectStudy\\PRN_231\\PRN231_PE_SU23_HUYNHCHAUHAITRIEU_SE161563\\OdataAPI\\OdataAPI.csproj": {}
+  },
+  "projects": {
+    "F:\\ProjectStudy\\PRN_231\\PRN231_PE_SU23_HUYNHCHAUHAITRIEU_SE161563\\OdataAPI\\OdataAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\ProjectStudy\\PRN_231\\PRN231_PE_SU23_HUYNHCHAUHAITRIEU_SE161563\\OdataAPI\\OdataAPI.csproj",
+        "projectName": "OdataAPI",
+        "projectPath": "F:\\ProjectStudy\\PRN_231\\PRN231_PE_SU23_HUYNHCHAUHAITRIEU_SE161563\\OdataAPI\\OdataAPI.csproj",
+        "packagesPath": "C:\\Users\\Hai Trieu\\.nuget\\packages\\",
+        "outputPath": "F:\\ProjectStudy\\PRN_231\\PRN231_PE_SU23_HUYNHCHAUHAITRIEU_SE161563\\OdataAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Hai Trieu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\ProjectStudy\\PRN_231\\PRN231_PE_SU23_HUYNHCHAUHAITRIEU_SE161563\\OdataData\\OdataData.csproj": {
+                "projectPath": "F:\\ProjectStudy\\PRN_231\\PRN231_PE_SU23_HUYNHCHAUHAITRIEU_SE161563\\OdataData\\OdataData.csproj"
+              },
+              "F:\\ProjectStudy\\PRN_231\\PRN231_PE_SU23_HUYNHCHAUHAITRIEU_SE161563\\OdataService\\OdataService.csproj": {
+                "projectPath": "F:\\ProjectStudy\\PRN_231\\PRN231_PE_SU23_HUYNHCHAUHAITRIEU_SE161563\\OdataService\\OdataService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FirebaseAdmin": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Google.Apis.Auth.AspNetCore3": {
+              "target": "Package",
+              "version": "[1.60.0, )"
+            },
+            "Google.Apis.Oauth2.v2": {
+              "target": "Package",
+              "version": "[1.60.0.1869, )"
+            },
+            "Hangfire.AspNetCore": {
+              "target": "Package",
+              "version": "[1.8.0, )"
+            },
+            "Hangfire.Core": {
+              "target": "Package",
+              "version": "[1.8.0, )"
+            },
+            "IdentityServer4.AccessTokenValidation": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.AspNet.WebApi.Client": {
+              "target": "Package",
+              "version": "[6.0.0-preview1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.OData": {
+              "target": "Package",
+              "version": "[8.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.18, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.18, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.18, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.18, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\ProjectStudy\\PRN_231\\PRN231_PE_SU23_HUYNHCHAUHAITRIEU_SE161563\\OdataData\\OdataData.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\ProjectStudy\\PRN_231\\PRN231_PE_SU23_HUYNHCHAUHAITRIEU_SE161563\\OdataData\\OdataData.csproj",
+        "projectName": "OdataData",
+        "projectPath": "F:\\ProjectStudy\\PRN_231\\PRN231_PE_SU23_HUYNHCHAUHAITRIEU_SE161563\\OdataData\\OdataData.csproj",
+        "packagesPath": "C:\\Users\\Hai Trieu\\.nuget\\packages\\",
+        "outputPath": "F:\\ProjectStudy\\PRN_231\\PRN231_PE_SU23_HUYNHCHAUHAITRIEU_SE161563\\OdataData\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Hai Trieu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\ProjectStudy\\PRN_231\\PRN231_PE_SU23_HUYNHCHAUHAITRIEU_SE161563\\OdataService\\OdataService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\ProjectStudy\\PRN_231\\PRN231_PE_SU23_HUYNHCHAUHAITRIEU_SE161563\\OdataService\\OdataService.csproj",
+        "projectName": "OdataService",
+        "projectPath": "F:\\ProjectStudy\\PRN_231\\PRN231_PE_SU23_HUYNHCHAUHAITRIEU_SE161563\\OdataService\\OdataService.csproj",
+        "packagesPath": "C:\\Users\\Hai Trieu\\.nuget\\packages\\",
+        "outputPath": "F:\\ProjectStudy\\PRN_231\\PRN231_PE_SU23_HUYNHCHAUHAITRIEU_SE161563\\OdataService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Hai Trieu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\ProjectStudy\\PRN_231\\PRN231_PE_SU23_HUYNHCHAUHAITRIEU_SE161563\\OdataData\\OdataData.csproj": {
+                "projectPath": "F:\\ProjectStudy\\PRN_231\\PRN231_PE_SU23_HUYNHCHAUHAITRIEU_SE161563\\OdataData\\OdataData.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FirebaseAdmin": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Hangfire.AspNetCore": {
+              "target": "Package",
+              "version": "[1.8.0, )"
+            },
+            "Hangfire.Core": {
+              "target": "Package",
+              "version": "[1.8.0, )"
+            },
+            "Microsoft.AspNet.WebApi.Client": {
+              "target": "Package",
+              "version": "[6.0.0-preview1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "NTQ.Sdk.Core": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            },
+            "ServiceStack.Interfaces": {
+              "target": "Package",
+              "version": "[6.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

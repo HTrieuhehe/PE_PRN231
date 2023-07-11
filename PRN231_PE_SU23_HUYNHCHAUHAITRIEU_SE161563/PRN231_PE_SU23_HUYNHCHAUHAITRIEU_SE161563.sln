@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OdataAPI", "OdataAPI\OdataAPI.csproj", "{8124D876-4265-40D5-B0E3-6D80185B958D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OdataAPI", "OdataAPI\OdataAPI.csproj", "{8124D876-4265-40D5-B0E3-6D80185B958D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OdataData", "OdataData\OdataData.csproj", "{67C439F3-5764-4C5E-9A89-1EA0DC8149CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OdataData", "OdataData\OdataData.csproj", "{67C439F3-5764-4C5E-9A89-1EA0DC8149CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OdataService", "OdataService\OdataService.csproj", "{155AAD31-5B9D-45E8-AD97-A32ABC544E47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OdataService", "OdataService\OdataService.csproj", "{155AAD31-5B9D-45E8-AD97-A32ABC544E47}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OdataWebClient", "..\..\PRN231_PE_SU23_HUYNHCHAUHAITRIEU_SE161563\OdataWebClient\OdataWebClient.csproj", "{F7696CA4-DEFE-4AD7-BCAA-855E609F18C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{155AAD31-5B9D-45E8-AD97-A32ABC544E47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{155AAD31-5B9D-45E8-AD97-A32ABC544E47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{155AAD31-5B9D-45E8-AD97-A32ABC544E47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7696CA4-DEFE-4AD7-BCAA-855E609F18C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7696CA4-DEFE-4AD7-BCAA-855E609F18C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7696CA4-DEFE-4AD7-BCAA-855E609F18C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7696CA4-DEFE-4AD7-BCAA-855E609F18C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
